@@ -7,6 +7,6 @@ async function bootstrap() {
     origin: 'http://localhost:5173', // autorise ton frontend Vite
     credentials: true,
   });
-  await app.listen(process.env.PORT ?? 3000);
+  await app.listen(process.env.PORT || 3000);
 }
 bootstrap();
