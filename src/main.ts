@@ -7,6 +7,7 @@ async function bootstrap() {
     origin: 'http://localhost:5173', // autorise ton frontend Vite
     credentials: true,
   });
+  console.log("database url: ",process.env.DATABASE_URL);
   await app.listen(process.env.PORT || 3000);
 }
 bootstrap();
