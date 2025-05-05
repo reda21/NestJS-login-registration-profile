@@ -6,6 +6,6 @@ export class UserController {
   @UseGuards(JwtAuthGuard)
   @Get('profile')
   getUserProfile(@Request() req) {
-    return req.user; // Affiche les données de l'utilisateur connecté
+    return req.user; // Affiche les données de l'utilisateur connecté...
   }
 }
