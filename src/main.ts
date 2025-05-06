@@ -6,7 +6,7 @@ async function bootstrap() {
   app.enableCors({
     // origin: 'http://localhost:5173', // autorise ton frontend Vite
     origin: [
-      'https://front-register-login-6prtjib7f-fabrices-projects-43ae4b68.vercel.app',
+      'https://front-register-login.vercel.app/',
       'https://front-register-login-git-main-fabrices-projects-43ae4b68.vercel.app',
       'https://front-register-login-ku7rdue4y-fabrices-projects-43ae4b68.vercel.app/'
     ],
