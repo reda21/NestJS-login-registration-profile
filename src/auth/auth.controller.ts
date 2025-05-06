@@ -11,6 +11,8 @@ export class AuthController {
 
   @Post('register')  // ../auth/register
   register(@Body() dto: RegisterDto) {
+    console.log('DATABASE_URL:', process.env.DATABASE_URL);
+
     return this.authService.register(dto);
   }
 
