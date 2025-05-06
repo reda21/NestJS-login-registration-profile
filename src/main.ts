@@ -8,6 +8,7 @@ async function bootstrap() {
     origin: [
       'https://front-register-login-6prtjib7f-fabrices-projects-43ae4b68.vercel.app',
       'https://front-register-login-git-main-fabrices-projects-43ae4b68.vercel.app',
+      'https://front-register-login-ku7rdue4y-fabrices-projects-43ae4b68.vercel.app/'
     ],
         credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
