@@ -23,7 +23,8 @@ import {
       if (existing) throw new BadRequestException('Email already in use');
   
       const hashed = await bcrypt.hash(dto.password, 10);
-  
+      console.log('Creating user with email:', dto.email);
+
       const user = await this.prisma.user.create({
         data: {
           email: dto.email,
